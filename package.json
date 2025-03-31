@@ -1,0 +1,20 @@
+{
+  "name": "awww4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i main_cs.css -o output.css --minify",
+    "watch": "tailwindcss -i main_cs.css -o output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "tailwindcss": "^4.0.17"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.17"
+  }
+}

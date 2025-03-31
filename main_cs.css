@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    .my-test-class {
+    background-color: red;
+    color: white;
+    padding: 1rem;
+    }
+}
